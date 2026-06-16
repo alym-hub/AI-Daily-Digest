@@ -1,0 +1,74 @@
+[
+  {
+    "title": "AI coding assistants become the new developer dashboard",
+    "source": "AI Engineering Weekly",
+    "date": "2026-06-16",
+    "category": "AI Tools",
+    "impact": "High",
+    "url": "https://github.com/features/copilot",
+    "summary": "Major coding tools are moving from autocomplete toward planning, testing, review, and multi-file task execution. For beginners, the best use is still asking the assistant to explain code and generate small practice projects."
+  },
+  {
+    "title": "Local LLM projects keep making small models more useful",
+    "source": "Open Source Radar",
+    "date": "2026-06-15",
+    "category": "Open Source",
+    "impact": "High",
+    "url": "https://github.com/ggerganov/llama.cpp",
+    "summary": "Local model runtimes make it easier to run AI on personal computers without sending everything to cloud APIs. The trend is useful for privacy, offline learning, and experimenting with AI systems at low cost."
+  },
+  {
+    "title": "Python remains the easiest first language for AI learners",
+    "source": "Learning Track",
+    "date": "2026-06-14",
+    "category": "Learning",
+    "impact": "Medium",
+    "url": "https://docs.python.org/3/tutorial/",
+    "summary": "Python continues to be the default language for data analysis, scripting, automation, and AI experiments. A good beginner path is variables, lists, dictionaries, files, APIs, then small automation projects."
+  },
+  {
+    "title": "Agent apps shift from chat boxes to task workflows",
+    "source": "Product Notes",
+    "date": "2026-06-13",
+    "category": "AI Agents",
+    "impact": "High",
+    "url": "https://github.com/langchain-ai/langchain",
+    "summary": "AI agent products are increasingly designed around tasks such as research, report generation, repository review, and browser automation. The key challenge is not just intelligence, but reliable execution and clear user control."
+  },
+  {
+    "title": "Web UI polish matters for small personal projects",
+    "source": "Design Desk",
+    "date": "2026-06-12",
+    "category": "Frontend",
+    "impact": "Medium",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS",
+    "summary": "A clean interface with readable spacing, soft contrast, hover states, and helpful empty states makes even simple projects feel serious. Personal GitHub projects benefit from screenshots and a polished demo page."
+  },
+  {
+    "title": "GitHub profiles become learning portfolios",
+    "source": "Developer Growth",
+    "date": "2026-06-11",
+    "category": "Career",
+    "impact": "Medium",
+    "url": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile",
+    "summary": "Students and new developers are using GitHub profiles to show learning progress, notes, small tools, and weekly build logs. A small complete project is often more impressive than many unfinished folders."
+  },
+  {
+    "title": "Markdown remains the simplest format for daily notes",
+    "source": "Workflow Lab",
+    "date": "2026-06-10",
+    "category": "Productivity",
+    "impact": "Low",
+    "url": "https://www.markdownguide.org/basic-syntax/",
+    "summary": "Markdown is still the easiest way to write portable notes, summaries, README files, and study logs. It works well with GitHub, Obsidian, VS Code, and static websites."
+  },
+  {
+    "title": "Computer science fundamentals still compound over time",
+    "source": "CS Notes",
+    "date": "2026-06-09",
+    "category": "Learning",
+    "impact": "High",
+    "url": "https://cs50.harvard.edu/x/",
+    "summary": "AI tools help you move faster, but fundamentals like variables, functions, files, data structures, networks, and databases make the tools much more useful. The strongest learning strategy is to build small projects and explain them back."
+  }
+]

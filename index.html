@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Daily Digest</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%234f46e5'/%3E%3Cpath d='M18 39h28M20 25h24M25 18h14M24 46h16' stroke='white' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero__content">
+          <p class="eyebrow">AI · Computer Science · Learning</p>
+          <h1 id="page-title">AI Daily Digest</h1>
+          <p class="hero__text">一个适合新手的 AI 与计算机新闻仪表盘：每天读一点，积累技术雷达。</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="digest.md">打开 Markdown 摘要</a>
+            <a class="button button--ghost" href="data/sample-news.json">查看数据源</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="今日概览">
+          <span class="hero-card__label">Today</span>
+          <strong id="today-count">8</strong>
+          <span>curated signals</span>
+        </aside>
+      </section>
+
+      <section class="toolbar" aria-label="筛选新闻">
+        <label class="search">
+          <span>搜索</span>
+          <input id="search-input" type="search" placeholder="输入 AI、Python、GitHub..." />
+        </label>
+        <div class="chips" id="category-filters" aria-label="分类筛选"></div>
+      </section>
+
+      <section class="stats" aria-label="关键指标">
+        <article class="stat-card">
+          <span>高影响</span>
+          <strong id="high-impact-count">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>分类数</span>
+          <strong id="category-count">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>学习建议</span>
+          <strong>1</strong>
+        </article>
+      </section>
+
+      <section class="spotlight" aria-labelledby="spotlight-title">
+        <div>
+          <p class="eyebrow">Top Signal</p>
+          <h2 id="spotlight-title">今天最值得看的方向</h2>
+        </div>
+        <article class="spotlight-card" id="spotlight-card"></article>
+      </section>
+
+      <section class="digest-grid" id="digest-grid" aria-label="新闻列表"></section>
+
+      <section class="learning-card" aria-labelledby="learning-title">
+        <div>
+          <p class="eyebrow">Learning Prompt</p>
+          <h2 id="learning-title">今天的小练习</h2>
+        </div>
+        <p>挑一条新闻，用自己的话写 3 句话：它讲了什么、为什么重要、你能用它做什么。</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
